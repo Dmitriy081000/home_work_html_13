@@ -1,0 +1,11 @@
+.rok:hover {
+    animation-name: day;
+    animation-duration: 10s;
+}
+
+@keyframes day {
+    from, to {
+        fill: aqua;
+        stroke: rgb(255, 0, 0);
+    }
+}

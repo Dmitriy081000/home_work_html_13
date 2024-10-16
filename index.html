@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
-  
+    <div class="wrapper">
+        <div class="rectangle">
+            <svg width="200" height="110">
+                <rect width="180" height="100" x="5" y="5" style="fill:rgb(59, 59, 164); stroke-width:5; stroke:rgb(225, 26, 0)"/>
+                </svg>
+        </div>   
+        <div class="square">
+            <svg width="200" height="200">
+                <rect width="180" height="180" x="5" y="5" style="fill:rgb(75, 164, 59); stroke-width:5; stroke:rgb(225, 0, 154)"/>
+                </svg>
+        </div>  
+        <div class="circle">
+            <svg width="200" height="200">
+                <circle class="rok" cx="100" cy="100" r="90" stroke="blue" stroke-width="5" fill="pink"/>
+            </svg>
+        </div>
+        <div class="elips">
+            <svg height="200" width="200">
+                <ellipse rx="90" ry="40" cx="100" cy="90"
+                style="fill:yellow;stroke:rgb(15, 129, 137);stroke-width:5" />
+            </svg>
+        </div>
+    </div>
 </body>
 </html>
